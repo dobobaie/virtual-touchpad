@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TouchPad/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TouchPad from './components/TouchPad.vue'
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    TouchPad
   }
 }
 </script>
